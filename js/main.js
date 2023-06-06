@@ -45,7 +45,7 @@ $(document).ready(function(){
         const destino = $('#contato');
         const nomeVeiculo = $(this).parent().find('h3').text();
     
-        $('#veiculo').val(nomeVeiculo);
+        $('#veiculo-interesse').val(nomeVeiculo);
     
         $('html').animate({
             scrollTop: destino.offset().top
